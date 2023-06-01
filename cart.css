@@ -1,0 +1,413 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.nav{
+   
+    height: 300px;
+    
+}
+.start-nav{
+   margin-top: 30px;
+    position: relative;
+    height: 42px;
+ 
+    display: flex;
+    justify-content:space-around;
+    padding-top: 10px;
+}
+
+.start-nav .first input{
+   
+    width:120px;
+    padding: 10px;
+    height: 20px;
+    text-align: right;
+    position: absolute;
+ 
+    outline:none;
+}
+   
+  .fa-magnifying-glass{
+    position:relative;
+    top:3px;
+    left:20px;
+    z-index: 1;
+
+}
+.start-nav .second button{
+width:150px;
+background-color:white;
+height: 20px;
+}
+.start-nav .second button:hover{
+    cursor:pointer; 
+}
+.start-nav .third{
+    width: 100px;
+    height: 30px;
+    color: dimgrey;
+
+ display: flex;
+ justify-content: space-between;
+ text-align: center;
+ 
+}
+.fa-user:hover{
+    cursor:pointer;
+    color:rgb(31, 27, 27);
+}
+
+.fa-heart:hover{
+    cursor:pointer;
+    color:rgb(31, 27, 27);
+}
+.fa-cart-shopping:hover{
+    cursor:pointer;
+    color:rgb(31, 27, 27);
+ 
+  
+}
+ .fa-cart-shopping{
+position: absolute;
+
+ }
+ .start-nav .third .plus1:hover{
+    font-size: 18px;
+    
+ }
+
+ .fa-circle{
+    color:darkorchid;
+    position: relative;
+    left:10px;
+    bottom: 15px;
+    z-index: 1;
+ }
+ .start-nav .third p{
+    color:green;
+    font-size: 10px;
+    font-weight: bold;
+    position: relative;
+    left: 10px;
+    bottom:30px;
+    z-index: 2;
+
+ }
+ .middle-nav-border{
+    margin-top: 40px;
+ }
+ .last-nav-border{
+    margin-left: 370px;
+    margin-top: 50PX;
+    text-decoration:none;
+    display: flex;
+    justify-content: space-between;
+    width:500px;
+  
+    font-size: 12px;
+    font-weight: lighter;
+ }
+ .last-nav-border a{
+    text-decoration: none;
+    color: black;
+ }
+ .last-nav-border .active{
+    color: blueviolet;
+ }
+ .last-nav-border a  .fa-chevron-down{
+
+font-size: 7px;
+padding-left: 5px;
+ }
+ .last-nav-border a:hover{
+    color: blueviolet;
+    cursor: pointer;
+ }
+ .first-part{
+    margin-top: 20px;
+    background-color: rgb(205, 211, 218);
+    height: 80px;
+    
+ }
+ .first-part .action{
+    display: flex;
+    padding: 30px 0px 0px 0px;
+    margin-left: 190px;
+    
+ }
+ .action a{
+    text-decoration: none;
+    padding:0px 10px 0px 10px;
+ }
+ .action a .active{
+    color: black;
+ }
+
+ .first-table{
+    margin-top: 10px;
+    height: 600px;
+  
+ }
+ table{
+
+    margin-top: 20px;
+    width: 100%;
+    border: 1px solid black;
+ }
+ table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  table .ab{
+    width:100px;
+    height: 50px;
+  }
+  table  .a1{
+    background-color: rgb(212, 198, 198);
+    padding: 3px 3px 3px 3px;
+    margin-left:  10px;
+    border-radius: 25%;
+  }
+  table input{
+    padding:5px 5px 5px 5px;
+    color: blue;
+
+  }
+  table  .b1{
+    background-color: rgb(212, 198, 198);
+    padding: 3px 3px 3px 3px;
+    margin-right:  10px;
+    border-radius: 25%;
+  }
+  table  .c{
+    background-color:rgb(115, 60, 115);
+    padding: 10px 10px 10px 10px;
+    margin-right:  10px;
+    border-radius: 25%;
+  }
+  .second-option{
+    margin-top: 20px;
+    display:flex ;
+    justify-content: space-around;
+  }
+  .one{
+    margin-top: 5px;
+    margin-right: 10px;
+    
+    height:400px;
+    width: 500px;
+  }
+  .two{
+    margin-top: 5px;
+
+    height:400px;
+    width: 500px;
+  }
+  .two p{
+    margin-left:280px;
+  }
+  .two h1{
+    font-size: 20px;
+    margin-left:300px;
+    padding:10px 0px 10px 0px;
+    
+  }
+  .one h1{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left:30px;
+    padding:10px 0px 10px 0px;
+    
+  }
+  .two table{
+    margin-top: 20px;
+justify-content: center;
+margin-left: 200px;
+  }
+
+ .one  button{
+    padding :10px 10px 10px 10px;
+    text-decoration: none;
+    background-color: blueviolet;
+    color: white;
+    block-size: 50px;
+    width: 200px;
+    margin-left: 15px;
+  }
+  .two a{
+    text-decoration: none;
+    color:white;
+  }
+  .two button{
+    margin-top: 40px;
+    
+    padding :10px 10px 10px 10px;
+    text-decoration: none;
+    background-color: blueviolet;
+    color: white;
+    block-size: 50px;
+    width: 200px;
+    margin-left:220px;
+  }
+  .one button:hover{
+    background-color:rgb(169, 183, 197);
+    padding: 9px 5px 5px 9px;
+  }
+  .two button:hover{
+    background-color:rgb(169, 183, 197);
+    padding: 9px 5px 5px 9px;
+  }
+  
+  
+  .one p{
+    margin-top: 10px;
+    margin-left: 15px;
+    color: rgb(148, 155, 155);
+  }
+ .one input{
+    margin-top: 30px;
+    margin-left: 15px;
+    padding:10px 20px 10px 40px;
+ }
+
+ 
+ .six-part{
+    margin-top:50px;
+    height: 350px;
+    
+    display: flex;
+    justify-content: space-around;
+}
+.six-part h{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.six-part p{
+    font-size: 15px;
+    color: dimgrey;
+    margin-top: 10px;
+}.six-part h1{
+    color:blueviolet;
+    font-size: 16px;
+}
+
+.six-part .asix{
+    width:120px;
+    height: 200px;
+ 
+}
+.six-part .bsix{
+    margin-top: 20px;
+    width:120px;
+    height: 200px;
+    
+}
+.six-part .csix{
+    margin-top: 20px;
+    width:120px;
+    height: 200px;
+    
+}
+.six-part .dsix{
+    width:250px;
+    height:300px;
+
+}
+.dsix h{
+    margin-left: 10px;
+}
+.dsix img{
+    margin-left: 10px;
+    float: left;
+    margin-top: 20px;
+    width: 240px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+.dsix  h1{
+    padding-left: 10px;
+}
+.dsix .ok{
+    display: flex;
+}
+.fa-thumbs-up{
+    margin-top: 10px;
+    padding-left: 5px;
+    color:rgb(176, 151, 121);
+
+}
+.six-part .esix{
+    width:250px;
+    height: 300px;
+   
+}
+.esix .e1{
+    display: flex;
+    padding: 10px;
+}
+.fa-location-dot{
+    margin-top: 10px;
+    padding-left: 5px;
+    color:blueviolet;
+}
+.fa-phone{
+    margin-top: 10px;
+    padding-left: 5px;
+    color:blueviolet; 
+}
+.fa-envelope{
+    margin-top: 10px;
+    padding-left: 5px;
+    color:blueviolet;    
+}
+.esix p{
+    margin-left: 10px;
+    
+}
+.esix .e1-in {
+    margin-top: 30px;
+}
+
+.esix .e1-in .in{
+ 
+    width:200px;
+    padding: 10px;
+    height: 40px;
+    text-align:left;
+    position: absolute;
+
+}
+   
+.esix .e1-in button{
+    position:relative;
+    z-index: 1;
+    top:2px;
+    left: 130px;
+    padding: 9px 14px 9px 14px;
+    color: white;
+    background-color:blueviolet;
+   
+
+}
+.finsh{
+    margin-top: 20px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+.finsh p{
+    font-weight: lighter;
+    color: slategrey;
+}
+
+.logo h1{
+    position: fixed;
+    z-index: 2;
+   top:550px;
+   left: 1100px;
+   font-size: 30px;
+  
+   color:rgb(145, 95, 117);
+}
